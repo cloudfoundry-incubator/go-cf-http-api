@@ -3,7 +3,7 @@ package api
 import (
 	"net/http"
 
-	"../api/auth"
+	"github.com/cloudfoundry-incubator/go-cf-http-api/pkg/api/auth"
 )
 
 type InfoResponse struct {

@@ -8,8 +8,8 @@ import (
 
 	"bytes"
 
-	"../api/errors"
-	"../httpclient"
+	"github.com/cloudfoundry-incubator/go-cf-http-api/pkg/api/errors"
+	"github.com/cloudfoundry-incubator/go-cf-http-api/pkg/httpclient"
 )
 
 type EVAClient struct {

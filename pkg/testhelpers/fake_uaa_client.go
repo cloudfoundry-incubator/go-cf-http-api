@@ -5,7 +5,7 @@ import (
 
 	"sync"
 
-	"../uaaclient"
+	"github.com/cloudfoundry-incubator/go-cf-http-api/pkg/uaaclient"
 )
 
 type fakeUAAClient struct {

@@ -9,7 +9,7 @@ import (
 
 	"strings"
 
-	"../httpclient"
+	"github.com/cloudfoundry-incubator/go-cf-http-api/pkg/httpclient"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

@@ -1,6 +1,6 @@
 package api
 
-import "./auth"
+import "github.com/cloudfoundry-incubator/go-cf-http-api/pkg/api/auth"
 
 type Endpoint struct {
 	Path   string

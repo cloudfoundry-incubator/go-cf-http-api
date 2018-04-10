@@ -1,7 +1,7 @@
 package uaaclient_test
 
 import (
-	"../uaaclient"
+	"github.com/cloudfoundry-incubator/go-cf-http-api/pkg/uaaclient"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

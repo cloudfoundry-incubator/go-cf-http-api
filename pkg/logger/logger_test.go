@@ -3,8 +3,7 @@ package logger_test
 import (
 	"bytes"
 
-	"../logger"
-
+	"github.com/cloudfoundry-incubator/go-cf-http-api/pkg/logger"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

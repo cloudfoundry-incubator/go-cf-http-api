@@ -6,7 +6,7 @@ import (
 
 	"testing"
 
-	"../logger"
+	"github.com/cloudfoundry-incubator/go-cf-http-api/pkg/logger"
 )
 
 func TestApi(t *testing.T) {

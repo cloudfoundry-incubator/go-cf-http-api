@@ -8,13 +8,12 @@ import (
 	"net/http"
 	"time"
 
-	"../api"
-	"../testhelpers"
-	"../uaaclient"
-
 	"path/filepath"
 
-	"../api/auth"
+	"github.com/cloudfoundry-incubator/go-cf-http-api/pkg/api"
+	"github.com/cloudfoundry-incubator/go-cf-http-api/pkg/api/auth"
+	"github.com/cloudfoundry-incubator/go-cf-http-api/pkg/testhelpers"
+	"github.com/cloudfoundry-incubator/go-cf-http-api/pkg/uaaclient"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

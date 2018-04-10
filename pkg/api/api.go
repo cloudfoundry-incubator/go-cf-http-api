@@ -12,9 +12,9 @@ import (
 	"context"
 	"strings"
 
-	"../uaaclient"
-	"../viewer"
-	"./auth"
+	"github.com/cloudfoundry-incubator/go-cf-http-api/pkg/api/auth"
+	"github.com/cloudfoundry-incubator/go-cf-http-api/pkg/uaaclient"
+	"github.com/cloudfoundry-incubator/go-cf-http-api/pkg/viewer"
 	"github.com/gorilla/mux"
 	"github.com/rcrowley/go-metrics"
 	"github.com/rcrowley/go-metrics/exp"

@@ -1,11 +1,11 @@
 package api_test
 
 import (
-	. "../api"
-
 	"net/http"
 
-	"../api/auth"
+	. "github.com/cloudfoundry-incubator/go-cf-http-api/pkg/api"
+	"github.com/cloudfoundry-incubator/go-cf-http-api/pkg/api/auth"
+
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

@@ -9,7 +9,7 @@ import (
 
 	"io/ioutil"
 
-	"../uaaclient"
+	"github.com/cloudfoundry-incubator/go-cf-http-api/pkg/uaaclient"
 	"github.com/gorilla/mux"
 )
 

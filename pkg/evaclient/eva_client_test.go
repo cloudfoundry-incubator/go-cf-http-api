@@ -1,17 +1,15 @@
 package evaclient_test
 
 import (
-	"../evaclient"
-
 	"encoding/json"
 	"net/http"
 	"net/http/httptest"
 
 	"io/ioutil"
 
-	"../api"
-	"../api/errors"
-
+	"github.com/cloudfoundry-incubator/go-cf-http-api/pkg/api"
+	"github.com/cloudfoundry-incubator/go-cf-http-api/pkg/api/errors"
+	"github.com/cloudfoundry-incubator/go-cf-http-api/pkg/evaclient"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

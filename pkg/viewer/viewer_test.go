@@ -1,8 +1,7 @@
 package viewer_test
 
 import (
-	"../viewer"
-
+	"github.com/cloudfoundry-incubator/go-cf-http-api/pkg/viewer"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

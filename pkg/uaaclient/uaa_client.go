@@ -3,7 +3,7 @@ package uaaclient
 import (
 	"errors"
 
-	"../httpclient"
+	"github.com/cloudfoundry-incubator/go-cf-http-api/pkg/httpclient"
 )
 
 type User struct {

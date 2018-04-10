@@ -3,7 +3,7 @@ package api
 import (
 	"net/http"
 
-	"../api/errors"
+	"github.com/cloudfoundry-incubator/go-cf-http-api/pkg/api/errors"
 )
 
 type Response struct {

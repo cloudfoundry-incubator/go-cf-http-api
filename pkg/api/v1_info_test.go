@@ -3,9 +3,8 @@ package api_test
 import (
 	"net/http"
 
-	"../api"
-	"../uaaclient"
-
+	"github.com/cloudfoundry-incubator/go-cf-http-api/pkg/api"
+	"github.com/cloudfoundry-incubator/go-cf-http-api/pkg/uaaclient"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

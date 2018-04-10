@@ -6,8 +6,8 @@ import (
 
 	"strings"
 
-	"../api/errors"
-	"../evaclient"
+	"github.com/cloudfoundry-incubator/go-cf-http-api/pkg/api/errors"
+	"github.com/cloudfoundry-incubator/go-cf-http-api/pkg/evaclient"
 )
 
 type fakeClient struct {
